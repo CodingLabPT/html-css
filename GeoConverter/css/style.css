@@ -1,0 +1,53 @@
+body {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 5px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffb6c1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 5px 0 5px 0;
+}
+
+fieldset {
+    margin-top: 5px;
+    border: 1px dotted #999;
+}
+
+section#latitude, section#longitude {
+    padding: 5px 0 5px 5px;
+    background-color: #ccc;
+}
+
+section#latitude span {
+    font-size: 20px;
+}
+
+input#grausLat, input#grausLon {
+    width: 55px;
+}
+
+input#minutos, input#segundos  {
+    width: 75px;
+}
+
+#resultLat, #resultLon {
+    margin: 0;
+    padding: 0 0 0 5px;
+    color: rgb(80, 77, 77);
+    font-size: 14px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

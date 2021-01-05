@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Coordenadas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Conversor de coordenadas</h1>
+    <fieldset>
+        <legen><h3>Latitude (N)</h3></legend>
+    <section id="latitude">
+    <label for="grausLat">
+        <p><input type="number" required name="grausLat" id="grausLat" minlength="1" maxlength="6" placeholder="Graus"> <span>º</span></p>
+    </label>
+    <label for="minutosLat">
+        <p><input type="number" required name="minutosLat" id="minutosLat" minlength="1" maxlength="5" placeholder="Minutos"> <span>'</span></p>
+    </label>
+    <label for="segundosLat">
+        <p><input type="number" required name="segundosLat" id="segundosLat" minlength="1" maxlength="5" placeholder="Segundos"> <span>''</span></p>
+    </label>
+    <label for="submit">
+        <p><input type="submit" id="btnLat" value="Converter" onclick="convertLat()" onmouseover="mouseOver()"></p>
+    </label>
+    <label for="resultLat">
+        <p id="resultLat"></p>
+    </label>
+    </section>
+    </fieldset>
+    <fieldset>
+        <legen><h3>Longitude (W)</h3></legend>
+    <section id="longitude">
+    <label for="grausLon">
+        <p><input type="number" required name="grausLon" id="grausLon" minlength="1" maxlength="6" placeholder="Graus"> <span>º</span></p>
+    </label>
+    <label for="minutosLon">
+        <p><input type="number" required name="minutosLon" id="minutosLon" minlength="1" maxlength="5" placeholder="Minutos"> <span>'</span></p>
+    </label>
+    <label for="segundosLon">
+        <p><input type="number" required name="segundosLon" id="segundosLon" minlength="1" maxlength="5" placeholder="Segundos"> <span>''</span></p>
+    </label>
+    <label for="submit">
+        <p><input type="submit" id="btnLon" value="Converter" onclick="convertLon()" onmouseover="mouseOver()"></p></p>
+    </label>
+    <label for="resultLon">
+        <p id="resultLon"></p>
+    </label>
+    </section>
+    </fieldset>
+    <script src="js/script.js"></script>
+</body>
+</html>
