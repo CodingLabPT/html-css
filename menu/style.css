@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+
+classe no html = . css
+id no htnml = # css
+
+*/
+
+
+div.center {
+    background-color: rgb(37, 37, 39);
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: rgb(37, 37, 39);
+}
+
+nav a {
+    padding: 20px;
+    color: #fff;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+nav a.login {
+    background-color: rgb(24, 139, 233);
+    float: right;
+}
+
+/* responsividade, a partir de 504px ou inferior o site apresente as
+seguintes regras */
+
+@media (max-width: 504px) {
+    nav a {
+        display: block;
+    }
+
+    .login {
+        display: block;
+        width: 100%;
+    }
+}
