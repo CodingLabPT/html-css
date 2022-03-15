@@ -1,0 +1,151 @@
+/*
+
+Grey - #555
+Starbucks green - #017143
+thumb - 40px
+img - 330px
+logo - 60px
+
+
+main 
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+section.left 
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+h1
+    font-size: 55px;
+    font-weight: 500;
+    color: #313131;
+
+span 
+    font-weight: 900;
+    color: #017143;
+
+h3 
+    font-weight: 200;
+    font-size: 16px;
+
+button 
+    font-weight: 200;
+    font-size: 16px;
+    width: 30%;
+    background-color: #017143;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+section.right 
+    padding: 50px 100px;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+font-family: 'Poppins', sans-serif;
+
+
+classe no html - css é tratado com um .
+id no html - css é tratado com #
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+div.center {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* alinhamento vertical */
+    justify-content: space-between;
+    margin: 20px;
+}
+
+header img {
+    max-width: 80px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+header nav a {
+    color: #555;
+    padding: 10px;
+}
+
+header nav a:hover {
+    background-color: #017143;
+    color: #fff;
+    border-radius: 20px;
+}
+
+main {
+    /*border: 1px dashed;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section.left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main section.left h1 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #333;
+}
+
+main section.left h1 span {
+    color: #017143;
+    font-weight: 900;
+}
+
+main section.left p {
+    color: #333;
+}
+
+main section.left button {
+    background-color: #017143;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1.5;
+    font-weight: 500;
+}
+
+main section.right img {
+    max-width: 330px;
+    /* superior / direito / inferior / esquerda */
+    margin: 40px 60px 80px 60px;
+}
