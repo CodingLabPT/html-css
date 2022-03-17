@@ -188,23 +188,3 @@ div.social img:hover {
     transform: translateX(15px);
     transition: .5s;
 }
-
-div.thumbnails {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    position: absolute;
-    bottom: 5%;
-    left: calc(50% - 95px);
-}
-
-div.thumbnails img {
-    max-width: 50px;
-    cursor: pointer;
-}
-
-div.thumbnails img:hover {
-    transform: translateY(-15px);
-    transition: .5s;
-}
-
