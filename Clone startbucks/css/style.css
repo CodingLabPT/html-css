@@ -101,6 +101,7 @@ header nav a:hover {
     background-color: #017143;
     color: #fff;
     border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
 }
 
 main {
@@ -137,12 +138,16 @@ main section.left button {
     color: #fff;
     padding: 10px 20px;
     border-radius: 40px;
-    width: 30%;
+    width: 35%;
     cursor: pointer;
     font-size: 16px;
     letter-spacing: 1.5;
     font-weight: 500;
 }
+
+main section.left button:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+} 
 
 main section.right img {
     max-width: 330px;
@@ -174,7 +179,32 @@ div.social {
 
 
 div.social img {
-    max-width: 25px;
-    max-height: 30px;
+    max-width: 20px;
+    max-height: 25px;
     cursor: pointer;
 }
+
+div.social img:hover {
+    transform: translateX(15px);
+    transition: .5s;
+}
+
+div.thumbnails {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    bottom: 5%;
+    left: calc(50% - 95px);
+}
+
+div.thumbnails img {
+    max-width: 50px;
+    cursor: pointer;
+}
+
+div.thumbnails img:hover {
+    transform: translateY(-15px);
+    transition: .5s;
+}
+
