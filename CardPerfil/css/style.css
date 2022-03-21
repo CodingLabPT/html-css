@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+body {
+    background-color: #091A24;
+}
+
+div.cardContainer {
+    padding: 2px;
+    background-color: #fff;
+    text-align: center;
+    margin: 50px auto;
+    width: 320px;
+    border-radius: 20px;
+    position: relative;
+    border:2px solid #fff;
+}
+
+section.top {
+    padding: 20px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div.cardContainer div.bgTop {
+    position: absolute;
+    width: 99%;
+    height: 100px;
+    background-color: #D7950D;
+    top: 2px;
+    left: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50%;
+}
+
+div.cardContainer:hover {
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, .5);
+    background-color: #D7950D;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+
+div.cardContainer:hover h3{
+    color: #000;
+}
+
+div.cardContainer:hover button {
+    border: 1px solid #fff;
+}
+
+section.top img.photo {
+    padding: 3px;
+    background-color: #fff;
+    max-width: 152px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+section.top h2 {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+section.top h3 {
+    color: #99690a;
+    font-weight: 500;
+}
+
+section.top h5 {
+    margin: 10px auto;
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    font-style: italic;
+}
+
+
+section.top button {
+    background-color: #D7950D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #E7EDF4;
+    border: 1px solid #fff;
+}
+
+div.cardContainer:hover section.top button{
+    border: 1px solid #000;
+    color: #000;
+}
+
+section.bottom {
+    padding: 10px;
+    border-top: 2px solid #d2d7dd;;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #E7EDF4;
+}
+
+
+section.bottom .fa-facebook-square, section.bottom .fa-twitter-square, section.bottom .fa-instagram, section.bottom .fa-linkedin  {
+    font-size: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+section.bottom:hover .fa-facebook-square:hover, section.bottom:hover .fa-twitter-square:hover, section.bottom:hover .fa-instagram:hover, section.bottom:hover .fa-linkedin:hover  {
+    transform: scale(.7);
+    transition: .6s;
+}
