@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar conteudo usando CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <section class="container">
+        <h2>Centralizar conteudo usando CSS</h2>
+        <h4>1. Display block + margin auto</h4>
+        <h4>2. Position (relative no elemento pai e absolute no elemento filho) + tamanho do elemento + margin auto</h4>
+        <h4 class="atual">3. Display Flex (elemento pai)</h4>        
+        <style>
+            .conteiner {
+                height: 200px;
+                background-color: #ebebeb;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: 20px;
+            }
+
+            .elemento {
+                width: 81px;
+                height: 36px;
+            }
+        </style>
+
+</head>
+<body>
+        <div class="conteiner">
+            <button class="elemento">Texto</button>                      </div>
+    </section>
+</body>
+</html>
+
