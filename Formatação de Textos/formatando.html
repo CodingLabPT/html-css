@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <!-- scratched -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 2.5em;
+        }
+
+        body h1:first-child {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .h2 {
+            background-color: palegreen;
+            display: inline;
+            padding: 10px;
+            color: #333;
+        }
+
+        ul li, ol li, dl {
+            font-size: 20px;
+        }
+
+        span {
+            text-decoration: underline;
+        }
+
+        .esquerda {
+            text-align: left;
+        }
+
+        .direita {
+            text-align: right;   
+        }
+
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatação de textos</h1>
+        <h2 class="h2">Cabeçalhos e Parágrafos</h2>
+        <ol>
+            <li>Cabeçalhos</li>
+            <hgroup>
+                <h1>Cabeçalho de nivel 1 - Titulo do documento</h1>
+                <h2>Cabeçalho de nivel 2 - Subtitulo do documento</h2>
+                <h3>Cabeçalho de nivel 3</h3>
+                <h4>Cabeçalho de nivel 4</h4>
+                <h5>Cabeçalho de nivel 5</h5>
+                <h6>Cabeçalho de nivel 6</h6>
+            </hgroup>
+
+            <li>Parágrafos</li>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ea esse minus veritatis, laborum illo quas molestias deserunt totam autem consectetur accusantium voluptatum sunt eos vitae corrupti expedita iusto libero.</p>
+            
+        </ol>
+        <h2 class="h2">Itálico, negrito, sublinhado e riscado</h2>
+            <ol>
+                <li>Itálico</li>
+                <!-- 
+                    a tag i embora usada não atribui semantica à palavra 
+                    esta tag i está depreciada, futuramente os navegadores
+                    deixarão de ter suporte para a tag
+                -->
+                <em>Lorem ipsum</em> <!--  emphase -->
+                
+                <li>Negrito</li>
+                <!-- 
+                    a tag b embora usada não atribui semantica à palavra 
+                    esta tag b está depreciada, futuramente os navegadores
+                    deixarão de ter suporte para a tag
+                -->
+                <strong>Lorem ipsum</strong> <!-- forte -->
+                
+                <li>Sublinhado</li>
+                <!-- 
+                    a tag u embora usada não atribui semantica à palavra 
+                    esta tag u está depreciada, futuramente os navegadores
+                    deixarão de ter suporte para a tag
+                -->
+                <span>Lorem ipsum</span> <!-- underline -->
+                
+                <li>Riscado</li>
+                <!-- 
+                    a tag s embora usada não atribui semantica à palavra 
+                    esta tag u está depreciada, futuramente os navegadores
+                    deixarão de ter suporte para a tag
+                -->
+                <del>Lorem ipsum</del> <!-- deleted/scratched-->
+
+                
+            </ol>
+        <h2 class="h2">Alinhamentos</h2>
+        <ol>
+            <p class="esquerda">Alinhamente de texto à esquerda</p>
+            <p class="direita">Alinhamente de texto à direita</p>
+            <p class="justificado">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, totam numquam. Vitae, odio magnam id eligendi harum tenetur possimus deserunt, ipsa error perferendis eaque natus atque ea ducimus nam maxime.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, totam numquam. Vitae, odio magnam id eligendi harum tenetur possimus deserunt, ipsa error perferendis eaque natus atque ea ducimus nam maxime.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, totam numquam. Vitae, odio magnam id eligendi harum tenetur possimus deserunt, ipsa error perferendis eaque natus atque ea ducimus nam maxime.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, totam numquam. Vitae, odio magnam id eligendi harum tenetur possimus deserunt, ipsa error perferendis eaque natus atque ea ducimus nam maxime.
+            
+            </p>
+        </ol>
+</body>
+</html>
